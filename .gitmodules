@@ -1,0 +1,3 @@
+[submodule "BitcoinMiner"]
+	path = BitcoinMiner
+	url = https://github.com/MattyAB/BitcoinMiner
