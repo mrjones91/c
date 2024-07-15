@@ -17,6 +17,8 @@ int main()
 	printf("str1: %s\n", str1);
 	
 	loops();
+
+    printf("zig cc compiled!");
 		
 	return 0;
 }
@@ -25,7 +27,7 @@ int getAge()
 {
 	int age;
 	
-	printf("\nayy\n");
+	printf("\nYour Age?\n");
 	
 	scanf("%d", &age);
 	
