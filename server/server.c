@@ -23,7 +23,7 @@ void main() {
     recv(client_fd, buffer, 256, 0);
 
     // GET /file.html .....
-
+    
     char* f = buffer + 5;
     *strchr(f, ' ') = 0;
     int opened_fd = open(f, O_RDONLY);
