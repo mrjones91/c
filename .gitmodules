@@ -1,3 +1,6 @@
 [submodule "BitcoinMiner"]
 	path = BitcoinMiner
 	url = https://github.com/MattyAB/BitcoinMiner
+[submodule "codecrafters/codecrafters-http-server-c2"]
+	path = codecrafters/codecrafters-http-server-c2
+	url = https://git.codecrafters.io/33cb699f0a27e8e5
