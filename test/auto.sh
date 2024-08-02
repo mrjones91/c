@@ -1,8 +1,10 @@
 # Copy folder to folder
-copy . "../gh"
+cp cc/* gh/  
 # run git acp
-cd ../gh
-git add ./*
-git commit -m "1"
-git push
+# cd ../gh
+# git -C gh remote get-url origin
+# git -C gh status
+git -C gh add
+git -C gh commit -m "auto changed"
+git -C gh push
 # Profit
